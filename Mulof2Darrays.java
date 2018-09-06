@@ -1,5 +1,3 @@
-package work31;
-import java.util.*;
 public class Mulof2Darrays {
 
 	public static void main(String[] args) 
@@ -48,14 +46,13 @@ public class Mulof2Darrays {
 					}
 					System.out.println();
 				}
-				if(a==b1)
-				{
-					System.out.println("multiplication possible");
-				}
-				else
+				if(b!=a1)
 				{
 					System.out.println("multiplication is not possible");
 				}
+				else
+				{
+					System.out.println("multiplication possible");
 				System.out.println("Multiply array A & Multiply array B");
 				int mul[][]=new int [a][b1];
 				int sum=0;
@@ -78,6 +75,7 @@ public class Mulof2Darrays {
 						System.out.print(mul[i][j]+" ");
 					}
 					System.out.println();
-				}			
+				}
+				}
 	}
 }
